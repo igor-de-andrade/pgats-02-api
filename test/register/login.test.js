@@ -1,8 +1,8 @@
-const request = require('supertest');
-const { expect } = require('chai');
-const { faker } = require('@faker-js/faker');
-const loginFixture = require('../fixtures/login.json');
-require('dotenv').config();
+const request = require('supertest')
+const { expect } = require('chai')
+const { faker } = require('@faker-js/faker')
+const loginFixture = require('../fixtures/login.json')
+require('dotenv').config()
 
 describe('/users/login', () => {
     describe('POST', () => {
