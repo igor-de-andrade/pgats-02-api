@@ -1,0 +1,17 @@
+{
+    "request": {
+        "username": "user",
+        "password": "senha123",
+        "favorecidos": [
+            "Jocimar"
+        ]
+    },
+
+    "response": {
+        "username": "user",
+        "favorecidos": [
+            "Jocimar"
+        ],
+        "saldo": 10000
+    }
+}
